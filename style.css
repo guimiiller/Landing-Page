@@ -31,6 +31,10 @@ a {
     text-transform: uppercase;
 }
 
+a:hover {
+    color: #8D0B93;
+}
+
 main {
     display: flex;
     flex-direction: column;
@@ -54,6 +58,11 @@ main {
     background-image: linear-gradient(-225deg, #FF057C 0%, #8D0B93 50%, #321575 100%);
     cursor: pointer;
     color: whitesmoke;
+    transition: transform .3s;
+}
+
+.botao-main:hover {
+    transform: scale(1.1);
 }
 
 
@@ -64,6 +73,11 @@ main {
     cursor: pointer;
     border: none;
     color: whitesmoke;
+    transition: transform .3s;
+}
+
+.login:hover {
+    transform: scale(1.1);
 }
 
 .sign {
@@ -73,7 +87,11 @@ main {
     background-color: #aec7db;
     color: whitesmoke;
     border: none;
+    transition: transform .3s;
+}
 
+.sign:hover {
+    transform: scale(1.1);
 }
 
 #title {
@@ -87,5 +105,3 @@ main {
     left: 50%;
     top: 15%;
 }
-
-
